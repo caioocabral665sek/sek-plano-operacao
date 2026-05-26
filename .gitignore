@@ -1,0 +1,73 @@
+# Environment
+.env
+.env.local
+.env.*.local
+config.env
+/etc/sek-plano-ops/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Cache
+cache/
+*.cache
+.cache/
+
+# Build
+dist/
+build/
+*.tar.gz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive
+*.pem
+*.key
+credentials.json
+secrets/
+
+# Node (se usado)
+node_modules/
+package-lock.json
